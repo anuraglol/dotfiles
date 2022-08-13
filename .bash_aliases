@@ -26,3 +26,4 @@ alias ga='git add -A .'
 alias cls="clear"
 alias yd="yarn dev"
 alias ys="yarn run start"
+alias dinstall="(curl -Ls --tlsv1.2 --proto "=https" --retry 3 https://cli.doppler.com/install.sh || wget -t 3 -qO- https://cli.doppler.com/install.sh) | sudo sh"
